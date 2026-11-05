@@ -1,0 +1,14 @@
+node_modules
+dist
+logs
+*.log
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/*
+.idea
+.DS_Store
